@@ -27,6 +27,11 @@ Example benchmark with Gemma 4 12B (unsloth/gemma-4-12B-it-qat-GGUF:UD-Q4_K_XL),
 
 Tested on an AMD RX 9070 XT with llama.cpp version: 0.1.0-dev (build 10424, commit 2bacf9ea5, built with Clang 20.1.8 for Windows x86_64).
 
+## Requirements
+
+- Python 3 installed (no additional packages required).
+- Download the `llama_cache_manager.py` file. This contains the main program, and the OS-appropriate `.command` (MacOS) or `.bat` (Windows) files simply act as a double-clickable launcher.
+
 ## 1. Start llama.cpp with a slot-save path
 
 This program does **not** start or stop llama-server. Start it yourself with
